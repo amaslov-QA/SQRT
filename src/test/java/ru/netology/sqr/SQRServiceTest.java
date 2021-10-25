@@ -9,9 +9,9 @@ class SQRServiceTest {
     @Test
     public void rootNumber() {
         SQRService service = new SQRService();
-        int expected = 3;
-        int actual = service.rootNumber(200,300);
-        assertEquals(expected,actual);
+        int expected = 5;
+        int actual = service.rootNumber(300, 500);
+        assertEquals(expected, actual);
 
 
     }
